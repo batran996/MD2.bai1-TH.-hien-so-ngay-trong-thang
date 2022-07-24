@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class TinhNgay {
     public static void main(String[] args) {
         Scanner duLieu = new Scanner(System.in);
+        System.out.println("hay nhap thang can kiem tra");
         int thang = duLieu.nextInt();
         switch (thang) {
             case 2:
@@ -16,6 +17,7 @@ public class TinhNgay {
             case 10:
             case 12:
                 System.out.println("thang " + thang + " co 31 ngay ");
+                break;
             case 4:
             case 6:
             case 9:
